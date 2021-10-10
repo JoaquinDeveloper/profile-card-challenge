@@ -1,0 +1,192 @@
+<<<<<<< HEAD
+// Colors
+    // Primary
+    $dark-cyan: #19a2ae;
+    $very-dark-desaturate: #2d3248;
+    $dark-grayish-blue: #6a6f81;
+    // Neutral
+    $dark-gray: #96969620;
+    $white: #ffffff;
+// Font
+$font-stack:'Kumbh Sans', sans-serif;
+
+html {
+    box-sizing: border-box;
+    // 62.5% => 1rem = 10px
+    font-size: 62.5%;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body{
+    background-color: $dark-cyan;
+    font: 100% $font-stack;
+    background-image: url('images/bg-pattern-top.svg'), url('images/bg-pattern-bottom.svg');
+    background-repeat: no-repeat no-repeat;
+    background-position: right 48vw bottom 36vh, left 46vw top 54vh;
+    // background-position: right 50vw bottom 50vh ,left 50vh bottom 50vw;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    background-color: $white;
+    width: 325px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 0px 50px -6px rgba(45,50,72,0.6);
+    
+    &-header{
+        width: 100%;
+        display: block;
+    }
+
+    &-body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 1px solid $dark-gray ;
+    
+        &-img{
+            border: 5px solid white;
+            border-radius: 100%;
+            margin-top: -53px;
+            background-color: $white;
+        }
+        &-title{
+            margin-top: 1.2rem;
+            margin-bottom: 1rem;
+            font-size: 1.8rem; 
+            color: $very-dark-desaturate;
+            span{
+               color: $dark-grayish-blue;
+               font-weight: 400;
+           }
+        }
+        &-text{
+            color: $dark-grayish-blue;
+            font-size: 1.5rem;
+            margin-top: 0;
+            margin-bottom: 2.2rem;
+        }
+    }
+    &-footer{
+        display: flex;
+        justify-content: space-around;
+
+        &-social{
+            text-align: center;
+            font-size: 1.2rem;
+            color: $very-dark-desaturate;
+            p{
+                color: $dark-grayish-blue;
+                letter-spacing: 1px;
+                font-size: 1rem;
+                margin-top: -1.2rem;
+                margin-bottom: 2rem;
+            }
+        }
+    }
+=======
+// Colors
+    // Primary
+    $dark-cyan: #19a2ae;
+    $very-dark-desaturate: #2d3248;
+    $dark-grayish-blue: #6a6f81;
+    // Neutral
+    $dark-gray: #96969620;
+    $white: #ffffff;
+// Font
+$font-stack:'Kumbh Sans', sans-serif;
+
+html {
+    box-sizing: border-box;
+    // 62.5% => 1rem = 10px
+    font-size: 62.5%;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body{
+    background-color: $dark-cyan;
+    font: 100% $font-stack;
+    background-image: url('images/bg-pattern-top.svg'), url('images/bg-pattern-bottom.svg');
+    background-repeat: no-repeat no-repeat;
+    background-position: right 48vw bottom 36vh, left 46vw top 54vh;
+    // background-position: right 50vw bottom 50vh ,left 50vh bottom 50vw;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    background-color: $white;
+    width: 325px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 0px 50px -6px rgba(45,50,72,0.6);
+    
+    &-header{
+        width: 100%;
+        display: block;
+    }
+
+    &-body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 1px solid $dark-gray ;
+    
+        &-img{
+            border: 5px solid white;
+            border-radius: 100%;
+            margin-top: -53px;
+            background-color: $white;
+        }
+        &-title{
+            margin-top: 1.2rem;
+            margin-bottom: 1rem;
+            font-size: 1.8rem; 
+            color: $very-dark-desaturate;
+            span{
+               color: $dark-grayish-blue;
+               font-weight: 400;
+           }
+        }
+        &-text{
+            color: $dark-grayish-blue;
+            font-size: 1.5rem;
+            margin-top: 0;
+            margin-bottom: 2.2rem;
+        }
+    }
+    &-footer{
+        display: flex;
+        justify-content: space-around;
+
+        &-social{
+            text-align: center;
+            font-size: 1.2rem;
+            color: $very-dark-desaturate;
+            p{
+                color: $dark-grayish-blue;
+                letter-spacing: 1px;
+                font-size: 1rem;
+                margin-top: -1.2rem;
+                margin-bottom: 2rem;
+            }
+        }
+    }
+>>>>>>> 198749459c6aa5456ac64143784580e13019a98a
+}
